@@ -172,4 +172,5 @@ jupyter notebook notebooks_cod/real_estate_price_analysis.ipynb
 Данные и код доступны по ссылке: https://disk.yandex.ru/d/lmtFiaeqX8u5-A
 
 👤 Автор
+
 Проект выполнен в рамках аналитического исследования рынка недвижимости.
