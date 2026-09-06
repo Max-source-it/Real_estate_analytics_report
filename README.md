@@ -75,7 +75,7 @@ jupyter notebook notebooks_cod/real_estate_price_analysis.ipynb
 
 Площадь участка сильно коррелирует с жилой площадью (0.67) и типом «дом» (0.86), что указывает на мультиколлинеарность. В финальную модель включена только жилая площадь.
 
-![Correlation Matrix](images/correlation_matrix.png)
+![Correlation Matrix](images/Correlation Matrix.png)
 
 ---
 
