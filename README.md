@@ -75,7 +75,7 @@ jupyter notebook notebooks_cod/real_estate_price_analysis.ipynb
 
 Площадь участка сильно коррелирует с жилой площадью (0.67) и типом «дом» (0.86), что указывает на мультиколлинеарность. В финальную модель включена только жилая площадь.
 
-![Correlation Matrix](images/Correlation_matrix.png)
+![Correlation Matrix](images/correlation_matrix.png)
 
 ---
 
@@ -116,7 +116,17 @@ jupyter notebook notebooks_cod/real_estate_price_analysis.ipynb
   - Возраст: 1.13
 - **График остатков** (зависимость остатков от предсказанных значений, QQ-plot, гистограмма) подтвердил адекватность модели: остатки случайно разбросаны вокруг нуля, распределение близко к нормальному, фактические и предсказанные значения хорошо согласуются.
 
-![Residual Plots](images/residual_plots.png)
+![Residuals vs Fitted Values](images/residuals_fitted.png)
+*Figure 1 – Residuals vs Fitted Values: checks for homoscedasticity and random scatter*
+
+![Q-Q Plot](images/quantile-quantile_plot.png)
+*Figure 2 – Q-Q Plot: normality assessment of residuals*
+
+![Residuals Distribution Histogram](images/residuals_distribution.png)
+*Figure 3 – Histogram of residuals: visual check of error distribution*
+
+![Actual vs Predicted Values](images/actual_predicted.png)
+*Figure 4 – Actual vs Predicted: model calibration and prediction accuracy*
 
 ---
 
