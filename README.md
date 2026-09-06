@@ -28,7 +28,7 @@
 ---
 
 ## 📁 Структура проекта
-
+```bash
 Real_estate_analytics_report/
 ├── data/
 │    └── raw/
@@ -42,7 +42,7 @@ Real_estate_analytics_report/
 ├── final_report_real_estate.docx
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 🚀 Как запустить
@@ -50,7 +50,7 @@ Real_estate_analytics_report/
 1. **Клонируйте репозиторий** или скачайте ZIP-архив.
   
 2. **Установите зависимости**:
-   ```bash
+```bash
    pip install -r requirements.txt
 ```
 3. Запустите Jupyter Notebook:
